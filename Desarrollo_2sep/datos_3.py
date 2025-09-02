@@ -11,7 +11,7 @@ df = df.dropna(subset=['edad'])
 
 print(df)
 
-plt.figure(figsize=(8,6)) #
+plt.figure(figsize=(8,6)) #la figura tendrá 8 pulgadas de ancho y 6 pulgadas de alto.
 sns.boxplot(x="país", y="edad", data=df, palette="pastel")
 
 plt.title("Distribución de edades por país")
