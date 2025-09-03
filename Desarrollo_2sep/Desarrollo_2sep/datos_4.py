@@ -22,6 +22,5 @@ sns.scatterplot(x="edad", y="país", data=df, hue="país", palette="pastel")
 plt.title("Edad vs Países")
 plt.xlabel("Edad")
 plt.ylabel("País")
-
 plt.show()
 
