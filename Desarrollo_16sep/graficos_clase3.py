@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plit
 import seaborn as sns
 
-
 df = pd.read_csv(r"C:\Users\reyes\OneDrive\Documentos\WorkSpace\pruebasPy\2025-SENA\III Trismestre\Desarrollo_16sep\usuarios_segmentación_clase3.csv")
 
 plit.figure(figsize=(12,8))
